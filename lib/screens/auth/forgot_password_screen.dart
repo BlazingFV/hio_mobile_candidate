@@ -5,14 +5,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hio_mobile_candidate/shared/widgets/custom_text_field.dart';
 import 'package:hio_mobile_candidate/shared/widgets/raised_button.dart';
 
-class AuthScreen extends StatefulWidget {
-  const AuthScreen({Key? key}) : super(key: key);
+class ForgotPasswordScreen extends StatefulWidget {
+  const ForgotPasswordScreen({Key? key}) : super(key: key);
 
   @override
-  _AuthScreenState createState() => _AuthScreenState();
+  _ForgotPasswordScreenState createState() => _ForgotPasswordScreenState();
 }
 
-class _AuthScreenState extends State<AuthScreen> {
+class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -157,7 +157,7 @@ class _AuthScreenState extends State<AuthScreen> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         SvgPicture.asset('assets/icons/Vector.svg'),
-                        SizedBox(width:8.w),
+                        SizedBox(width: 8.w),
                         Text(
                           'Continue with Linkedin',
                           style: GoogleFonts.arimo(
